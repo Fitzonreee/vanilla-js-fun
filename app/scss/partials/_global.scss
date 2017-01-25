@@ -1,0 +1,14 @@
+
+@include fontFace('myFont','../fonts/geomanist-regular-webfont');
+
+.container {
+  height: calc(100vh - 30px);
+  margin: 15px;
+  background-color: lighten($lightblue, 15%);
+}
+
+* {
+  font-family: 'myFont';
+  font-size: 100px;
+  font-weight: 100;
+}
