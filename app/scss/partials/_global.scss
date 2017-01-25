@@ -1,14 +1,22 @@
+// Just playing around right now
 
+
+// Eventually all Global Styles
 @include fontFace('myFont','../fonts/geomanist-regular-webfont');
 
 .container {
   height: calc(100vh - 30px);
   margin: 15px;
   background-color: lighten($lightblue, 15%);
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
-* {
+#title {
   font-family: 'myFont';
   font-size: 100px;
   font-weight: 100;
+  text-align: center;
+  margin-top: 40px;
 }

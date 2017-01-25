@@ -8,9 +8,14 @@
 .container {
   height: calc(100vh - 30px);
   margin: 15px;
-  background-color: #e8f4f8; }
+  background-color: #e8f4f8;
+  position: absolute;
+  left: 0;
+  right: 0; }
 
-* {
+#title {
   font-family: 'myFont';
   font-size: 100px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-align: center;
+  margin-top: 40px; }
